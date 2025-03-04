@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lora';
+  font-family: 'Krona One';
   background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg_main.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+  font-family: 'Krona One';
 }
 
 p {
@@ -28,7 +28,7 @@ p {
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: 'Krona One';
 }
 
 .site-heading .site-heading-upper {
@@ -81,7 +81,7 @@ p {
 
 #mainNav {
   background-color: rgba(24, 64, 8);
-  font-family: 'Raleway';
+  font-family: 'Krona One';
 }
 
 #mainNav .navbar-brand {
@@ -131,7 +131,8 @@ p {
     float: left;
   }
   .intro .intro-text {
-    left: 600;
+    left: 700;
+    top: 50;
     width: 60%;
     margin-top: 3rem;
     background-color: rgba(24, 64, 8);
@@ -266,7 +267,7 @@ a.link:hover{
 }
 
 .section-content{
-  font-family: 'Lora' !important;
+  font-family: 'Krona One' !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 28px !important;
