@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ProyectoWebapp',
     'Serviciosapp',
-]
+    'Blogapp',]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
