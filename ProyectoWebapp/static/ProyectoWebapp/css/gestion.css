@@ -138,6 +138,8 @@ p {
     background-color: rgba(24, 64, 8);
     color: cornsilk;
     position: absolute;
+    
+    
   }
   .intro .intro-text .intro-button {
     width: 100%;
@@ -277,4 +279,12 @@ ul.errorlist{
   padding-top: .75rem;
   font-style: italic;
   color: red;
+}
+.linkCategorias{
+  color: white;
+  text-decoration: underline;
+}
+.linkCategorias:hover{  
+  text-decoration: none;
+  color: white;
 }
