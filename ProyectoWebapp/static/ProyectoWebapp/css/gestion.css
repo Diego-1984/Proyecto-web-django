@@ -288,3 +288,25 @@ ul.errorlist{
   text-decoration: none;
   color: white;
 }
+
+.contenedorFormulario {
+  background-color: rgba(24, 64, 8);
+  max-width: 600px;
+  width: 45%; 
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
+   
+}
+@media (max-width: 600px) {
+  .contenedorFormulario {
+    width: 95%;
+    flex-direction: column;
+    padding: 15px;
+  }
+}
