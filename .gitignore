@@ -1,0 +1,15 @@
+# Python files
+*.pyc
+__pycache__/
+*.egg-info/
+*.swp
+*.swo
+.env
+venv/
+
+# Temp files
+*.tmp
+*.log
+*.bak
+*.cache
+*.sqlite3
