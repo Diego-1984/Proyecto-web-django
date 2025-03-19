@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'ProyectoWebapp',
     'Serviciosapp',
     'Blogapp',
-    'Contactoapp',]
+    'Contactoapp',
+    'Tiendapp',
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

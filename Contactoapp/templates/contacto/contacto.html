@@ -11,8 +11,14 @@
 <body>
     <div>
         {% if "valido" in request.GET %}            
-            <p style="color: white; justify-content: center; display: flex; margin-top: 10px;">¡Mensaje enviado! Gracias por contactar</p>
-        {% endif %}
+        <p style="color: white; justify-content: center; display: flex; margin-top: 10px;">
+            ¡Mensaje enviado! Gracias por contactar
+        </p>
+        {% elif "novalido" in request.GET %}
+        <p style="color: white; justify-content: center; display: flex; margin-top: 10px;">
+            Ha habido un error, inténtelo de nuevo más tarde
+        </p>
+        {% endif %}      
     </div>
 
     <div class="contenedorFormulario">        
