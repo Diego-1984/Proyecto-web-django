@@ -19,7 +19,9 @@ class Producto(models.Model):
     imagen = models.ImageField(upload_to="tienda", null=True, blank=True)    
     categorias = models.ForeignKey(CategoriaProd, on_delete=models.CASCADE)
     precio = models.FloatField()
-    disponibilidad = models.BooleanField(default=True)      
+    disponibilidad = models.BooleanField(default=True)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)      
 
     class Meta:
         verbose_name = "producto"
